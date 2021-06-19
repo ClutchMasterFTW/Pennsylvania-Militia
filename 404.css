@@ -1,0 +1,408 @@
+@font-face {
+    font-family: 'the_donaldyuge';
+    src: url('fonts/thedonald-v5no-webfont.woff2') format('woff2'),
+         url('fonts/thedonald-v5no-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*font-family: 'the_donaldyuge';*/
+
+@font-face {
+    font-family: 'eurostylenormal';
+    src: url('fonts/eurostyle_normal-webfont.woff2') format('woff2'),
+         url('fonts/eurostyle_normal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*font-family: 'eurostylenormal';*/
+
+@font-face {
+    font-family: 'hhhbold';
+    src: url('fonts/icaorwyid-webfont.woff2') format('woff2'),
+         url('fonts/icaorwyid-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*font-family: 'hhhbold';*/
+
+@font-face {
+    font-family: 'puristamedium';
+    src: url('fonts/purista_medium-webfont.woff2') format('woff2'),
+         url('fonts/purista_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*font-family: 'puristamedium';*/
+
+@font-face {
+    font-family: 'puristasemibold';
+    src: url('fonts/purista_semibold-webfont.woff2') format('woff2'),
+         url('fonts/purista_semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*font-family: 'puristasemibold';*/
+
+@font-face {
+    font-family: 'puristabold';
+    src: url('fonts/purista_bold-webfont.woff2') format('woff2'),
+         url('fonts/purista_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*font-family: 'puristabold';*/
+
+body {
+    background-color: #f2f2f2;
+    background-size: cover;
+    height: 45vw;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.header {
+    position: fixed;
+    width: 100vw;
+    height: 5vw;
+    background-image: linear-gradient(to right, white, orangered);
+    top: 0vw;
+    left: 0vw;
+    font-family: 'the_donaldyuge';
+    z-index: 100;
+    box-shadow: 0vw 0.25vw 1vw black
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo-text1 {
+    position: absolute;
+    top: 0.15vw;
+    left: 1vw;
+    font-size: 1.5vw;
+    background: -webkit-linear-gradient(black, #474747);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: italic;
+}
+
+.logo-text2 {
+    position: absolute;
+    top: 1.65vw;
+    left: 1vw;
+    font-size: 1.5vw;
+    background: -webkit-linear-gradient(black, #474747);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo-text3 {
+    position: absolute;
+    top: 1vw;
+    left: 8.25vw;
+    font-size: 2vw;
+    background: -webkit-linear-gradient(orangered, #ff8300);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'hhhbold';
+    display: flex;
+    letter-spacing: -0.5vw;
+    -webkit-text-stroke: 1px black;
+}
+
+#dot {
+    display: flex;
+    font-size: 0.92vw;
+    font-family: 'the_donaldyuge';
+    letter-spacing: 0.1vw;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.header-link1 {
+    background: -webkit-linear-gradient(black, #474747);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 0.75vw;
+    left: 59.5vw;
+}
+
+.header-link1:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.header-link2 {
+    background: -webkit-linear-gradient(black, #474747);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 0.75vw;
+    left: 71.5vw;
+}
+
+.header-link2:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.header-link3 {
+    background: -webkit-linear-gradient(black, #474747);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 0.75vw;
+    left: 80vw;
+}
+
+.header-link3:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.header-link4 {
+    background: -webkit-linear-gradient(black, #474747);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 0.75vw;
+    left: 90.5vw;
+}
+
+.header-link4:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0.5vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #474747;
+    border: 1px solid black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: orangered;
+    border: 1px solid black;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #ff8300;
+}
+
+#fof {
+    background: -webkit-linear-gradient(orangered, #ff8300);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 8vw;
+    position: absolute;
+    top: 10vw;
+    left: 8.5vw;
+    font-family: 'the_donaldyuge';
+}
+
+#error {
+    background: -webkit-linear-gradient(orangered, #ff8300);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2vw;
+    position: absolute;
+    top: 14.8vw;
+    left: 29.75vw;
+    font-family: 'the_donaldyuge';
+}
+
+#divider {
+    background-image: linear-gradient(orangered, #ff8300);
+    width: 80vw;
+    height: 0.15vw;
+    position: absolute;
+    top: 17.5vw;
+    left: 8.75vw;
+}
+
+#text {
+    color: black;
+    position: absolute;
+    top: 20vw;
+    padding-left: 8.75vw;
+    padding-right: 8.75vw;
+    font-size: 1.5vw;
+    font-family: 'the_donaldyuge';
+}
+
+#hover {
+    color: #ff8300;
+}
+
+#hover:hover {
+    text-decoration: underline;
+}
+
+.home {
+    width: 8vw;
+    height: 2.5vw;
+    background: -webkit-linear-gradient(orangered, #ff8300);
+    position: absolute;
+    top: 25vw;
+    left: 8.75vw;
+    color: white;
+    text-align: center;
+    font-size: 1.25vw;
+    font-family: 'the_donaldyuge';
+    line-height: 2.5vw;
+    vertical-align: middle;
+}
+
+.home:hover {
+    background: -webkit-linear-gradient(black, black);
+}
+
+.back {
+    width: 8vw;
+    height: 2.5vw;
+    background: -webkit-linear-gradient(orangered, #ff8300);
+    position: absolute;
+    top: 25vw;
+    left: 18vw;
+    color: white;
+    text-align: center;
+    font-size: 1.25vw;
+    font-family: 'the_donaldyuge';
+    line-height: 2.5vw;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.back:hover {
+    background: -webkit-linear-gradient(black, black);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Below */
+
+#footer {
+    background-image: linear-gradient(to right, white, orangered);
+    width: 100vw;
+    height: 15vw;
+    position: absolute;
+    bottom: 0vw;
+    left: 0vw;
+    font-family: 'the_donaldyuge';
+    border-top: 1px solid black;
+}
+
+.logo-text1-2 {
+    position: absolute;
+    top: 1.5vw;
+    left: 2.5vw;
+    font-size: 1vw;
+    background: -webkit-linear-gradient(black, #474747);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: italic;
+}
+
+.logo-text2-2 {
+    position: absolute;
+    top: 2.5vw;
+    left: 2.5vw;
+    font-size: 1vw;
+    background: -webkit-linear-gradient(black, #474747);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo-text3-2 {
+    position: absolute;
+    top: 0.2vw;
+    left: 12.7vw;
+    font-size: 2.5vw;
+    background: -webkit-linear-gradient(orangered, #ff8300);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'hhhbold';
+    display: flex;
+    letter-spacing: -0.5vw;
+    -webkit-text-stroke: 1px black;
+}
+
+#dot-2 {
+    display: flex;
+    font-family: 'the_donaldyuge';
+    letter-spacing: 0.2vw;
+    -webkit-text-stroke: 0.1px black;
+    font-size: 1.2vw;
+}
+
+.footer1 {
+    position: absolute;
+    top: 5vw;
+    left: 2.5vw;
+    font-size: 1vw;
+}
+
+.footer2 {
+    position: absolute;
+    top: 6.5vw;
+    left: 2.5vw;
+    font-size: 1vw;
+}
+
+.footer3 {
+    position: absolute;
+    top: 8vw;
+    left: 2.5vw;
+    font-size: 1vw;
+}
+
+.footer4 {
+    position: absolute;
+    top: 9.5vw;
+    left: 2.5vw;
+    font-size: 1vw;
+}
+
+.footer5 {
+    position: absolute;
+    top: 11vw;
+    left: 2.5vw;
+    font-size: 1vw;
+}
+
+.hover:hover {
+    text-decoration: underline;
+}
