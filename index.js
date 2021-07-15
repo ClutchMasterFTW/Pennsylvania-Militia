@@ -326,10 +326,11 @@ function changeMoney(param) {
         if(money >= 9999999) {
             clearInterval(interval);
             document.getElementById("cash").innerHTML = "OVERLOADED!";
+            active = null;
         } else {
             var interval = setInterval(function() {
                 money += 51;
-                document.getElementById("cash").innerHTML = "$" + money;
+                document.getElementById("cash").innerHTML = "$" + numberWithCommas(money);
             }, 1);
             active = true;
         }
@@ -352,4 +353,8 @@ function enableJoinToday() {
         }, 5);
         ranNum = 1;
     }
+}
+
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
